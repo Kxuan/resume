@@ -27,8 +27,10 @@
 
 ## 使用方法
 
-1. OverLeaf 在线编译
-2. 使用较新的 \LaTeX\ 发行版在本地计算机编译
+### Requirement
+
+* xelatex
+* texlive-lang-cjk
 
 如果确定只需要中文简历的话单独克隆 `master` 分支即可, 需要注意的是该分支包含 Adobe 的宋楷黑仿四套中文字体，压缩包约为37MB。[下载地址](https://github.com/hijiangtao/resume/releases)
 

@@ -11,7 +11,7 @@ zh_CN:	clean xelatex resume-zh_CN.tex
 pdf:	clean $(PDFS)
 
 %.pdf:  %.tex
-	xelatex $<
+	xelatex -interaction=nonstopmode $<
 
 ifeq ($(OS),Windows_NT)
   # on Windows
